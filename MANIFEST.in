@@ -1,0 +1,9 @@
+global-include *.py *.js *.rst *.html *.css *.lyx *.pdf *.png *.gif *.jpg *.txt *.jar *.bat *
+global-exclude *.pyc .gitignore
+
+prune .git
+prune dist
+prune pyact.egg-info
+prune pyact/development/attic
+prune pyact/development/docs
+prune pyact/development/experiments
