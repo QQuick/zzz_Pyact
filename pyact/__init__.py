@@ -2,9 +2,11 @@ React = require ('react')
 ReactDOM = require ('react-dom')
 
 el = createElement = React.createElement
-us = useState = React.useState
-cc = createContext = React.createContext
-uc = useContext = React.useContext
+useState = React.useState
+createContext = React.createContext
+useContext = React.useContext
+createRef = React.createRef
+useEffect = React.useEffect
 
 def render (component, properties, parentId):
     def main ():
