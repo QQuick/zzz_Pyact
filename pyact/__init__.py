@@ -1,7 +1,7 @@
 React = require ('react')
 ReactDOM = require ('react-dom')
 
-el = createElement = React.createElement
+createElement = React.createElement
 useState = React.useState
 createContext = React.createContext
 useContext = React.useContext
